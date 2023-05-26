@@ -1,0 +1,38 @@
+#clock pin for Nexys 2 Board
+NET "clk" LOC = "B8";
+
+#Load button
+NET "reset"  LOC = "B18";
+NET "Go"     LOC = "D18";
+NET "Choix"  LOC = "H13";
+  
+
+#LEDs
+NET "signe_cos" LOC = "J14";
+NET "signe_sin_bric" LOC = "R4";
+
+
+#Theta
+NET "Choix_theta<0>" LOC = "G18";
+NET "Choix_theta<1>" LOC = "H18";
+NET "Choix_theta<2>" LOC = "K18";
+
+
+
+# Afficheur 7 segments
+
+# Anode_Activate
+NET "Anode_Activate<0>" LOC = "F17";
+NET "Anode_Activate<1>" LOC = "H17";
+NET "Anode_Activate<2>" LOC = "C18";
+NET "Anode_Activate<3>" LOC = "F15";
+
+# Valeurs
+NET "S_7seg<0>"  LOC = "L18";
+NET "S_7seg<1>"  LOC = "F18";
+NET "S_7seg<2>"  LOC = "D17";
+NET "S_7seg<3>"  LOC = "D16";
+NET "S_7seg<4>"  LOC = "G14";
+NET "S_7seg<5>"  LOC = "J17";
+NET "S_7seg<6>"  LOC = "H14";
+NET "S_7seg<7>"  LOC = "C17";
